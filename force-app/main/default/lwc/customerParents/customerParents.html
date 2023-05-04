@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Parents">
+        <template if:true={records}>
+            <template for:each={records} for:item='record'>
+                <lightning-record-form
+                key={record.id}
+                record-id={record.id}
+                object-api-name="Account"
+                fields={FIELDS}
+                >
+                </lightning-record-form>
+            </template>
+        </template>
+        <template if:true={error}>
+            Some error occured.
+            {error}
+        </template>
+    </lightning-card>
+    
+</template>

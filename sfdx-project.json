@@ -1,0 +1,13 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "accountChildren",
+  "namespace": "",
+  
+  "sfdcLoginUrl": "https://nttdata212-dev-ed.develop.lightning.force.com",
+  "sourceApiVersion": "56.0"
+}
